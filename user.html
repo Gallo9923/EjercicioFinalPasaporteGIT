@@ -2,7 +2,7 @@
 
     <head>
         <title>Universidad Icesi</title>
-        <link rel="stylesheet" href="styles/user.css">
+        <!--*12* Hay un estilo creado para la página, pero no esta siendo usado en el header-->
     </head>
 
     <body>
@@ -10,20 +10,25 @@
         <div id="mainContainer">
             <img id="banner" src="./images/banner.jpg"/>
 
-            <img id="logo" src="./images/logo_icesi.png"/>
+            <!--*14* No hay un estilo llamado lg, ademas la ruta de la imagen esta mal-->
+            <img id="lg" src="./icesi.png"/>
 
             <h1 id="titulo">Registrate</h1>
             
+            <!--*8* El campo de texto no se muestra correctamente-->
             <div class="questionContainer">
                 <h3 class="questionLabel">Cómo te llamas</h3>
-                <input type="text" placeholder="Nombre completo">
+                <text type="text" placeholder="Nombre completo">
             </div>
 
-            <div class="questionContainer">
+            <!--*9* El estilo quenContainer no se encuentra en user.css-->
+            <div class="quenContainer">
                 <h3 class="questionLabel">Cuál es tu correo electronico</h3>
                 <input type="email" placeholder="Correo electrónico">
             </div>
 
+
+            <!--*13* Hay un HTML Tag mal cerrado-->
             <div class="questionContainer">
                 <h3 class="questionLabel">Qué carrera te interesa</h3>
                 <select>
@@ -33,12 +38,15 @@
                     <option>Diseño de Medios Interactivos</option>
                     <option>Diseño Industrial</option>
                     <option>Ingeniería Industrial</option>
-                </select>
+                
             </div>
             
-            <button>Registrarme</button>
+            <!--*10* El Boton no se muestra correctamente-->
+            <btn>Registrarme</btn>
             
-            <a href="./index.html">Regresa a la página principal</a>
+
+            <!--*11* El enlace no lleva a index.html-->
+            <a>Regresa a la página principal</a>
 
         </div>
     </body>
