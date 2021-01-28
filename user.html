@@ -2,7 +2,7 @@
 
     <head>
         <title>Universidad Icesi</title>
-        <!--*12* Hay un estilo creado para la página, pero no esta siendo usado en el header-->
+        <!--*12* Existe el archivo de estilo llamado user.css, pero no está siendo llamado aquí. Llamelo con la etiqueta link-->
     </head>
 
     <body>
@@ -11,24 +11,24 @@
             <img id="banner" src="./images/banner.jpg"/>
 
             <!--*14* No hay un estilo llamado lg, ademas la ruta de la imagen esta mal-->
-            <img id="lg" src="./icesi.png"/>
+            <img id="lg" src="alfa./icesi.png"/>
 
             <h1 id="titulo">Registrate</h1>
             
-            <!--*8* El campo de texto no se muestra correctamente-->
+            <!--*8* El campo de texto no se muestra correctamente, quizas porque el tag se llama input y no text-->
             <div class="questionContainer">
                 <h3 class="questionLabel">Cómo te llamas</h3>
                 <text type="text" placeholder="Nombre completo">
             </div>
 
-            <!--*9* El estilo quenContainer no se encuentra en user.css-->
-            <div class="quenContainer">
+            <!--*9* El estilo quenCoiner no se encuentra en user.css, hay uno que se llama questionContainer-->
+            <div class="quenCoiner">
                 <h3 class="questionLabel">Cuál es tu correo electronico</h3>
                 <input type="email" placeholder="Correo electrónico">
             </div>
 
 
-            <!--*13* Hay un HTML Tag mal cerrado-->
+            
             <div class="questionContainer">
                 <h3 class="questionLabel">Qué carrera te interesa</h3>
                 <select>
@@ -38,14 +38,14 @@
                     <option>Diseño de Medios Interactivos</option>
                     <option>Diseño Industrial</option>
                     <option>Ingeniería Industrial</option>
-                
+                <!--*13* Hay un HTML Tag mal cerrado-->
             </div>
             
-            <!--*10* El Boton no se muestra correctamente-->
+            <!--*10* El Boton no se muestra correctamente, parece que la etiqueta está mal-->
             <btn>Registrarme</btn>
             
 
-            <!--*11* El enlace no lleva a index.html-->
+            <!--*11* El enlace no lleva a index.html, quizas hace falta el href-->
             <a>Regresa a la página principal</a>
 
         </div>

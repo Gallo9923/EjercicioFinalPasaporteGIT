@@ -11,6 +11,20 @@
 
         <div id="mainContainer">
 
+            <!--*AYUDA*-->
+
+            <!--*
+                Note que aquí se aplican estilos CSS. Primero, el estilo es llamado en la linea 6,
+                
+                Para aplicar los estilos, observe la imagen de abajo:
+                *Usando la propiedad "id" se aplica el estilo "logo" que está en styles/index.css
+                *Para poder invocar un estilo mediante "id", el estilo debe comenzar por #, por ejemplo #logo{}
+
+                Para aplicar los estilos, observe el div de la linea 33:
+                *Usando la propiedad "class" se aplica el estilo feedContainer que está en styles/index.css
+                *Para poder invocar un estilo mediante "class", el estilo debe comenzar por ., por ejemplo .feedContainer{}
+                *-->
+
             <img id="logo" src="./images/logo_icesi.png"/>
 
             <!--*1* Los tags están mal. Además el id no concuerda con ninguno de index.css-->
@@ -18,14 +32,14 @@
             
             <div class="feedContainer">
 
-                <!--*2* La propiedad clss no exitste. El fdTitle no concuerda con ningun estilo de index.css-->
+                <!--*2* La propiedad clss no exitste, existe class. El fdTitle no concuerda con ningun estilo de index.css, busque el adecuado-->
                 <h3 clss="fdTitle">Un campus amplio y Moderno</h3>
                 <div>
                     La Universidad Icesi cuenta con un campus de 141.334 m2 habilitados con 18 edificios y espacios abiertos en un ambiente campestre y acogedor e ideal para la vida social, cultural, académica y deportiva.
                 </div>
             </div>
             
-            <!--*3* La classe feedContainer esta mal aplicada. Parece que hay un div mal cerrado-->
+            <!--*3* La classe feedContainer esta mal aplicada por sintaxis y parece que hay un div mal cerrado-->
             <div class:"feedContainer">
                 <h3 class="feedTitle">Siempre pensando en el bienestar universitario</h3>
                 <div>
@@ -33,22 +47,23 @@
                 </div>
             </v>
             
-            <!--*4* Hay un tag mal cerrado. Además hay errores otrográfico-->
+            
             <div class="feedContainer">
                 <h3 class="feedTitle">Becas y financiacion</h3>
                 <div>
                     La Universidad icesi busca los mejores talentos y le intereza apollarlos de manera permanente desde el inicio hasta el final de sus carreras. Conose nuestro programa de vecas.
+                    <!--*4* Hay un tag mal cerrado. Además hay errores otrográficos en este párrafo-->
             </div>
 
-            <!--*5* Hace falta un titlo. Estilo mal aplicado-->
+            <!--*5* Hace falta un titlo. Estilo mal aplicado, quizas la palabra style no es para aplicar una clase CSS-->
             <div style="feedContainer">
                 <div>
                     La Universidad Icesi se encuentra entre las mejores del país.
                 </div>
             </div>
             
-            <!--*6* el enlace no lleva a user.html-->
-            <a href="./er.h">Registrate en la Universidad</a>
+            <!--*6* el enlace no lleva a user.html, corregir el enlace-->
+            <a href="beta./er.h">Registrate en la Universidad</a>
 
         </div>
     </body>
